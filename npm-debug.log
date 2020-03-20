@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\uTwitch\\uTwitchInjectTwitchDesktop\\node\\Data\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i'
+1 verbose cli ]
+2 info using npm@3.5.3
+3 info using node@v13.3.0
+4 verbose stack ReferenceError: primordials is not defined
+4 verbose stack     at evalmachine.<anonymous>:33:5
+4 verbose stack     at Object.<anonymous> (D:\uTwitch\uTwitchInjectTwitchDesktop\node\Data\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\fs.js:11:1)
+4 verbose stack     at Module._compile (internal/modules/cjs/loader.js:1128:30)
+4 verbose stack     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1167:10)
+4 verbose stack     at Module.load (internal/modules/cjs/loader.js:983:32)
+4 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:891:14)
+4 verbose stack     at Module.require (internal/modules/cjs/loader.js:1023:19)
+4 verbose stack     at require (internal/modules/cjs/helpers.js:72:18)
+4 verbose stack     at Object.<anonymous> (D:\uTwitch\uTwitchInjectTwitchDesktop\node\Data\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\graceful-fs.js:3:27)
+4 verbose stack     at Module._compile (internal/modules/cjs/loader.js:1128:30)
+5 verbose cwd D:\uTwitch\uTwitchInjectTwitchDesktop
+6 error Windows_NT 10.0.18363
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "D:\\uTwitch\\uTwitchInjectTwitchDesktop\\node\\Data\\node_modules\\npm\\bin\\npm-cli.js" "i"
+8 error node v13.3.0
+9 error npm  v3.5.3
+10 error primordials is not defined
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
