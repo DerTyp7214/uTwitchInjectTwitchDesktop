@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "appdata-path": "^1.0.0",
     "asar": "^2.0.1",
     "rimraf": "^3.0.0"
   }

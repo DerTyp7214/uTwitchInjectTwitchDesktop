@@ -1,3 +1,4 @@
+const getAppDataPath  = require('appdata-path')
 const rimraf = require("rimraf")
 const asar = require('asar')
 const fs = require('fs')
@@ -15,7 +16,7 @@ const arg = process.argv[2]
 if (!arg) {
     console.log('Please provide the path for Twitch!')
 } else {
-    const reee = arg.replace('\\Twitch.exe', '')
+    const reee = arg.replace('\\Twitch.exe', '').replace('%appdata%', getAppDataPath())
     const path = reee + '/Electron/resources/'
 
     asar.extractAll(`${path}electron.asar`, './tmp/')
