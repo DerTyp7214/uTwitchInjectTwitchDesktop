@@ -15,9 +15,13 @@ Cmd/Powershell:
 <br/>
 Yarn:
 <br/>
+`yarn`
+<br/>
 `yarn run inject <path to Twitch.exe>`
 <br/>
 <br/>
 Node:
+<br/>
+`npm i`
 <br/>
 `npm run inject <path to Twitch.exe>`
