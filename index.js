@@ -6,9 +6,7 @@ const fs = require('fs')
 const injectString = `require('electron')
 app.on('web-contents-created', (event, window) => {
     // UTWITCH:INJECTED
-    window.webContents.executeJavaScript(\`(() => {
-        fetch('https://cdn.utwitch.net/utwitch/inject.js').then(body => body.text()).then(eval)
-    })()\`)
+    window.webContents.executeJavaScript(\`fetch('https://cdn.utwitch.net/utwitch/inject.js').then(body => body.text()).then(eval)\`)
 })`
 
 const arg = process.argv[2]
